@@ -111,7 +111,7 @@ class Dealer(Player):
 class Game:
     """游戏流程控制"""
     def __init__(self):
-        self.deck = Deck()
+        self.deck = Deck(num_decks=2)
         self.player = HumanPlayer("玩家")
         self.dealer = Dealer("庄家")
 
