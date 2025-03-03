@@ -1,2 +1,4 @@
 {
+    "python.condaPath": "anaconda3/condabin/conda",
+    "python.pythonPath": "C:/Users/sanyuan/.conda/envs/MediaCrawler/python.exe"
 }
